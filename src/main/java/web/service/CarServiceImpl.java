@@ -5,9 +5,11 @@ import web.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Component
 public class CarServiceImpl implements CarService {
     private List<Car> cars;
+
     {
         cars = new ArrayList<>();
         cars.add(new Car("BMW", "M8", 2023));
